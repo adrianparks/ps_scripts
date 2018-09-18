@@ -1,0 +1,1 @@
+PowerShell scripts for use with vCloud, vSphere (VIPR mostly) and Active Directory

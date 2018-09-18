@@ -1,0 +1,18 @@
+Add-HostsTovCenter.ps1	 	# create datacenter and import hosts
+
+Do-InitialSetup.ps1		# create HA clusters and dvSwitches, add portgroups
+
+
+Migrate-HostNetworking.ps1	# migrate from VSS to VDS0 and connect to VDS1
+Add-VMKernelPorts.ps1
+
+Add-iSCSIStorage.ps1		# connect to the Compellent
+
+
+Do-FinalSetup.ps1		# final bits and pieces such as syslog server
+
+
+Add-HostsToCluster.ps1		# Move the built hosts into the cluster
+
+
+DeployVMs.ps1			# build all the test VMs

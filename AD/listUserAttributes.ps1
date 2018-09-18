@@ -1,0 +1,1 @@
+Get-Aduser -Filter * -Properties altSecurityIdentities,uidNumber | FT UserPrincipalName,uidNumber,altSecurityIdentities
